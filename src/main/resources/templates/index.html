@@ -16,6 +16,14 @@
 </form>
 <form method="get" sec:authorize="isAnonymous()" th:action="@{/login}">
     <button>Aanmelden</button>
+
+    <h5>Gebruikers te proberen</h5>
+    <ul>
+        <li>gebruiker= mieke.devos@firma.be</li>
+        <li>gebruiker=jan.demol@firma.be</li>
+        <li>gebruiker= ann.depauw@firma.be</li>
+        <li>wahctwoord="zorro"</li>
+    </ul>
 </form>
 </body>
 </html>
